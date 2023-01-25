@@ -1,0 +1,12 @@
+@mixin text($fs, $lh, $weight) {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $weight;
+}
+
+@mixin title-h1 {
+  font-size: 5.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
